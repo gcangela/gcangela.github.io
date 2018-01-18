@@ -1,0 +1,100 @@
+body {
+  color:white;
+  font-size: 15px;
+  font-family: "Montserrat", Arial, sans-serif
+}
+.header-nav {
+  position: fixed;
+  width:100%;
+  z-index:1;
+  padding:0;
+}
+.linkerino{
+  color: white;
+  mix-blend-mode: difference
+}
+.jumbotron {
+  background: url('../pictures/large-banner.png');
+  height: 100vh;
+  width: auto;
+  min-height: 335px;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+  margin-bottom: none;
+}
+.banner-content {
+  width:100%;
+  text-align: center;
+}
+.banner-title { 
+  font-size: 50px ;
+  text-shadow: 1px 1px black;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+.banner-subtitle {
+  padding-top:10px;
+  font-size:25px;
+}
+.learn-more {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+}
+.fa-angle-down {
+  font-size: 30px;
+  color:white;
+}
+.know-more, .learn-more a:hover{
+  color:white;
+  text-decoration: none;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+.introduction-section, .contact-section, .project-description  {
+  color: black;
+}
+.introduction-section { 
+  padding: 2rem;
+}
+.my-image {
+  height: 300px;
+  width:auto;
+}
+.hero-button {
+  padding: 15px 20px;
+  border-radius: 10px;
+  background: transparent;
+  color: white;
+  transition: all .5s ease-in-out
+}
+.hero-button:focus {
+  outline:none;
+}
+.hero-button:hover {
+  background-color: white; 
+  color:black;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.hamburger-bars{
+  color: white;
+  font-size: 30px;
+}
+
+
+
