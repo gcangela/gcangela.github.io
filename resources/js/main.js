@@ -6,8 +6,8 @@ $(".hero-button").click(function(e) {
 });
 
 const strings = [
-  "landingpages",
-  "webapps",
+  "landing pages",
+  "web apps",
   "corporate websites"
 ]
 
