@@ -3,16 +3,7 @@ body {
   font-size: 15px;
   font-family: "Montserrat", Arial, sans-serif
 }
-.header-nav {
-  position: fixed;
-  width:100%;
-  z-index:1;
-  padding:0;
-}
-.linkerino{
-  color: white;
-  mix-blend-mode: difference
-}
+
 .jumbotron {
   background: url('../pictures/large-banner.png');
   height: 100vh;
@@ -26,20 +17,20 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 0px;
-  margin-bottom: none;
+  margin-bottom: 0 !important;
 }
 .banner-content {
   width:100%;
   text-align: center;
 }
 .banner-title { 
-  font-size: 50px ;
+  font-size: 60px ;
   text-shadow: 1px 1px black;
   font-family: 'Sedgwick Ave Display', cursive;
 }
 .banner-subtitle {
   padding-top:10px;
-  font-size:25px;
+  font-size:30px;
 }
 .learn-more {
   position: absolute;
@@ -48,27 +39,15 @@ body {
   transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
 }
-.fa-angle-down {
-  font-size: 30px;
-  color:white;
-}
-.know-more, .learn-more a:hover{
-  color:white;
-  text-decoration: none;
-}
-
-.navbar-collapse {
-  justify-content: flex-end;
-  padding-right: 40px;
-}
 .introduction-section, .contact-section, .project-description  {
   color: black;
 }
 .introduction-section { 
-  padding: 2rem;
+  padding: 90px 0px;
+  background-color: #e6e3e3;
 }
 .my-image {
-  height: 300px;
+  height: 400px;
   width:auto;
 }
 .hero-button {
@@ -87,13 +66,35 @@ body {
   cursor: pointer;
   transform: scale(1.1);
 }
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+.introduction {
+  height: 500px;
+  background-color: white;
+  padding: 90px 0px;
+}
+.contact-section{
+  height:500px;
+  background-color:#38383d;
+  color:white;
+  padding: 90px 0px;
+}
+.code-editor {
+  background-color: black; 
+}
+.intro-heading, .intro-text {
+  color:black;
 }
 
-.hamburger-bars{
-  color: white;
-  font-size: 30px;
+/* Code editor colors */
+
+.green{
+  color:lightskyblue;
+}
+.maroon {
+  color:orange; 
+}
+.ltblue {
+  color: rebeccapurple;
 }
 
 

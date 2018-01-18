@@ -1,7 +1,7 @@
 $(".hero-button").click(function(e) {
   e.preventDefault();
   $('html,body').animate({
-      scrollTop: $(".intro-heading").offset().top - 80},
+      scrollTop: $(".intro-heading").offset().top - 90},
       'slow');
 });
 
@@ -20,5 +20,6 @@ const options = {
 }
 
 const typed = new Typed(".typewriter", options);
+console.log('')
 
 
