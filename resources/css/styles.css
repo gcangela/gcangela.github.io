@@ -1,5 +1,5 @@
 body {
-  color:white;
+  color: white;
   font-size: 15px;
   font-family: "Montserrat", Arial, sans-serif
 }
@@ -13,25 +13,29 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 0px;
   margin-bottom: 0 !important;
 }
+
 .banner-content {
-  width:100%;
+  width: 100%;
   text-align: center;
 }
-.banner-title { 
-  font-size: 60px ;
+
+.banner-title {
+  font-size: 60px;
   text-shadow: 1px 1px black;
   font-family: 'Sedgwick Ave Display', cursive;
 }
+
 .banner-subtitle {
-  padding-top:10px;
-  font-size:30px;
+  padding-top: 10px;
+  font-size: 30px;
 }
+
 .learn-more {
   position: absolute;
   left: 50%;
@@ -39,17 +43,23 @@ body {
   transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
 }
-.introduction-section, .contact-section, .project-description  {
+
+.introduction-section,
+.contact-section,
+.project-description {
   color: black;
 }
-.introduction-section { 
+
+.introduction-section {
   padding: 90px 0px;
-  background-color: #e6e3e3;
+  background-color: #F7F4F4;
 }
+
 .my-image {
   height: 400px;
-  width:auto;
+  width: auto;
 }
+
 .hero-button {
   padding: 15px 20px;
   border-radius: 10px;
@@ -57,12 +67,14 @@ body {
   color: white;
   transition: all .5s ease-in-out
 }
+
 .hero-button:focus {
-  outline:none;
+  outline: none;
 }
+
 .hero-button:hover {
-  background-color: white; 
-  color:black;
+  background-color: white;
+  color: black;
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -71,31 +83,48 @@ body {
   height: 500px;
   background-color: white;
   padding: 90px 0px;
+  color: black;
 }
-.contact-section{
-  height:500px;
-  background-color:#38383d;
-  color:white;
+
+.contact-section {
+  height: 500px;
+  background-color: #38383d;
+  color: white;
   padding: 90px 0px;
 }
+
 .code-editor {
-  background-color: black; 
-}
-.intro-heading, .intro-text {
-  color:black;
+  background-color: black;
 }
 
-/* Code editor colors */
-
-.green{
-  color:lightskyblue;
+.intro-text {
+  padding-top:30px;
 }
-.maroon {
-  color:orange; 
+.skills-summary,
+.intro-summary {
+  list-style: none;
 }
-.ltblue {
-  color: rebeccapurple;
+.lang-icon {
+  font-size: 20px;
+  padding-left: 5px;
 }
+/* Icon colors */
 
-
-
+.icon-html5-alt {
+  color: #e34f26;
+}
+.icon-css3-alt {
+  color:#3B5998 
+}
+.icon-javascript-alt {
+  color: #f7df1e;
+}
+.icon-reactjs {
+  color: #00d8ff;
+}
+.icon-nodejs {
+  color: #6cc24a;
+}
+.icon-mongodb {
+  color: #589636;
+}
