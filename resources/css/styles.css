@@ -51,13 +51,15 @@ body {
 }
 
 .introduction-section {
-  padding: 90px 0px;
+  padding: 60px 0 80px 0;
   background-color: #F7F4F4;
 }
 
 .my-image {
-  height: 400px;
+  height: 300px;
   width: auto;
+  
+ 
 }
 
 .hero-button {
@@ -80,14 +82,12 @@ body {
 }
 
 .introduction {
-  height: 500px;
   background-color: white;
   padding: 90px 0px;
   color: black;
 }
 
 .contact-section {
-  height: 500px;
   background-color: #38383d;
   color: white;
   padding: 90px 0px;
@@ -100,6 +100,10 @@ body {
 .intro-text {
   padding-top:30px;
 }
+.intro-mainHeading,
+.projects-mainHeading { 
+  padding-bottom: 60px;
+}
 .skills-summary,
 .intro-summary {
   list-style: none;
@@ -107,6 +111,11 @@ body {
 .lang-icon {
   font-size: 20px;
   padding-left: 5px;
+}
+.project-img-item {
+  width:100%;
+  max-height: 300px;
+  
 }
 /* Icon colors */
 
@@ -127,4 +136,8 @@ body {
 }
 .icon-mongodb {
   color: #589636;
+}
+footer {
+  padding:90px;
+  color: black;
 }

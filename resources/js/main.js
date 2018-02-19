@@ -1,14 +1,14 @@
 $(".hero-button").click(function(e) {
   e.preventDefault();
   $('html,body').animate({
-      scrollTop: $(".intro-heading").offset().top - 90},
+      scrollTop: $(".intro-mainHeading").offset().top - 60},
       'slow');
 });
 
 const strings = [
   "landing pages",
   "web apps",
-  "corporate websites"
+  "company websites"
 ]
 
 const options = {
